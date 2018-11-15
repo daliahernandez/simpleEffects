@@ -2,7 +2,10 @@ $(document).ready(function(){
   $("#show").click(function(){
     $(".showAnimal").show();
   });
-  $("#hide").click(function(){
-    $(".showAnimal").hide();
+  $("#showAnimal2").click(function(){
+    $(".showSecAnimal").slideToggle();
   });
+  $("#hide").click(function(){
+    $(".clear").hide();
+  })
 });
